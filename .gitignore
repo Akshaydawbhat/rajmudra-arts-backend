@@ -1,0 +1,48 @@
+# ===============================
+# BUILD FILES
+# ===============================
+/target/
+build/
+
+# ===============================
+# LOGS
+# ===============================
+*.log
+
+# ===============================
+# OS FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE FILES
+# ===============================
+
+## IntelliJ IDEA
+.idea/
+*.iml
+
+## VS Code
+.vscode/
+
+## Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# ===============================
+# ENV & SECRETS
+# ===============================
+.env
+application-local.properties
+
+# Firebase (ONLY ignore secret key file specifically)
+firebase-service-account.json
+
+# ===============================
+# MAVEN WRAPPER (KEEP THIS)
+# ===============================
+!.mvn/wrapper/maven-wrapper.jar
